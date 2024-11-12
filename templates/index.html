@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Twitter Interface</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create a Tweet</h2>
+    <div class="tweet-box">
+      <textarea id="tweetContent" placeholder="What's happening?"></textarea>
+      <button onclick="postTweet()">Tweet</button>
+    </div>
+    <div id="tweets" class="tweets-section"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
